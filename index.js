@@ -9,7 +9,7 @@ const cors = require("cors")
 //middlewares
 app.use(express.json())
 app.use(cors({
-    origin: "https://shophub.onrender.com",
+    origin: "https://shophub-awd9.onrender.com",
     credentials: true
 }))
 
